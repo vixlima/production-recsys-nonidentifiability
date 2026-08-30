@@ -1,0 +1,50 @@
+This repository is released under two licences, because it contains two kinds of
+material and one licence does not fit both.
+
+================================================================================
+CODE — everything under sql/ and scripts/, plus config.example.env
+MIT Licence
+================================================================================
+
+Copyright (c) 2026 André Lima
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+AGGREGATES AND DOCUMENTATION — everything under data/, plus README.md
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+================================================================================
+
+Copyright (c) 2026 André Lima
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the licence, and
+indicate whether changes were made.
+
+Full text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This matches the licence under which the accompanying paper is published.
+
+================================================================================
+WHAT IS NOT LICENSED HERE
+================================================================================
+
+The production data underlying the aggregates is not included in this
+repository and is not covered by either licence. It belongs to the operator of
+the audited system and to that operator's customers. See README.md.

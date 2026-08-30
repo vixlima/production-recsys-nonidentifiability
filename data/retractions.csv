@@ -1,0 +1,39 @@
+# derived from the research repository's retraction inventory; one row per overturned claim
+id,date,direction,cause_class,claim_retracted
+1,2026-08-13,favours_system,G,The score does not beat trivial heuristics — the premise that motivated the work
+2,2026-08-13,neutral,G,"Resolution rises with the score, from 0.213 to 0.324"
+3,2026-08-13,against_system,A,H2 refuted using the global standard deviation instead of the within-list one
+4,2026-08-16,against_hypothesis,,The effect of factor D4 on the logistic regression would be large
+5,2026-08-16,favours_system,F,The mapping sums the SHAP of completed and pending tasks
+6,2026-08-18,neutral,F,"The artefact requires `__main__.reshape`, which does not exist in the code"
+7,2026-08-18,favours_system,E,There is no way to know the size of the damage
+8,2026-08-18,against_system,,Dropping the categorical variables is a property of the system
+9,2026-08-17,neutral,H,Serving over filled-in text
+10,2026-08-17,neutral,F,The missingness rate can now be counted from the log
+11,2026-08-19,favours_system,C,The uplift term accounts for 94.5% of the score
+12,2026-08-19,neutral,D,The probability barely participates in the ranking
+13,2026-08-19,favours_system,D,SHAP explains the wrong model
+14,2026-08-20,neutral,A,The censoring of the history is informative rather than administrative
+15,2026-08-20,favours_system,,H5 'structurally supported'
+16,2026-08-20,against_researcher,,"Of the four hypotheses with an outcome, prior expectation got three right"
+17,2026-08-20,favours_hypothesis,H,My prediction that owner coverage would be poor early in the window
+18,2026-08-20,against_hypothesis,A,The data axis moves twice as much as the algorithm axis
+19,2026-08-20,against_hypothesis,A,"An advantage between 1.4 and 2.1 times, depending on the target"
+20,2026-08-21,against_hypothesis,B,The temporal artefact component is indistinguishable from zero
+21,2026-08-21,neutral,A,Adding the pipeline yields 11.2% more usable lists
+22,2026-08-21,favours_hypothesis,I,"A cited work uses exactly our partial identification, so the technique is not new"
+23,2026-08-21,neutral,A,The list-level numbers of the leakage demonstration
+24,2026-08-21,against_hypothesis,B,The eight best grid cells are statistically tied
+25,2026-08-21,favours_system,A,The production selection metric varies by a factor of 7.8
+26,2026-08-21,against_system,A,Leakage barely changes what is measured — about two hundredths of AUC
+27,2026-08-22,favours_system,,The combined score is equal to or worse than the probability in thirteen of the twenty months
+28,2026-08-22,favours_system,B,The missingness of the outcome depends on the very value that is missing
+29,2026-08-22,favours_system,B,The system beats the business heuristics and random ranking by a statistically distinguishable margin
+30,2026-08-22,neutral,F,Braces in the BibTeX keys produce what the citation standard requires
+31,2026-08-22,neutral,A,"The unit of analysis is the request, identified by the customer and prediction instant pair"
+32,2026-08-23,favours_system,B,The system beats random ranking and contact qualification by a margin distinguishable from noise
+33,2026-08-23,against_system,,The system is the best ranker among those tested
+34,2026-08-23,against_hypothesis,A,The contrast between the tuned and single-column baselines excludes zero
+35,2026-08-23,against_system,A,"Four of the eight ranking comparisons survive Holm, and the outcome against the tuned baseline is undecidable"
+36,2026-08-26,against_hypothesis,A,The direction survives in all four combinations; the margin does not
+37,2026-08-30,favours_system,A,"With both ends corrected over the same population, the system beats every heuristic tested"

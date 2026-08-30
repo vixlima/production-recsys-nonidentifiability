@@ -1,0 +1,9 @@
+comparison,requests,mean_difference_ndcg5,standard_error,t,ci95_low_analytic,ci95_high_analytic,mean_difference_bootstrap,ci95_low_bootstrap,ci95_high_bootstrap,fraction_replicates_non_positive
+system - random,525,0.1085,0.0123,8.837,0.0844,0.1325,0.1084,0.0838,0.1323,0.000
+system - recency,525,0.0883,0.0137,6.468,0.0615,0.1151,0.0884,0.0609,0.1142,0.000
+system - value,525,0.0809,0.0130,6.235,0.0555,0.1063,0.0805,0.0552,0.1054,0.000
+system - stage_score,525,0.0390,0.0122,3.208,0.0152,0.0628,0.0388,0.0155,0.0619,0.000
+system - interactions,525,0.0272,0.0142,1.917,-0.0006,0.0551,0.0270,0.0009,0.0532,0.018
+system - qualification,525,0.0250,0.0144,1.740,-0.0032,0.0533,0.0254,-0.0032,0.0525,0.044
+system - stage,525,0.0059,0.0146,0.404,-0.0228,0.0346,0.0065,-0.0233,0.0354,0.303
+system - logistic_5var,525,-0.0287,0.0146,-1.965,-0.0574,-0.0001,,,,
