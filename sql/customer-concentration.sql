@@ -2,7 +2,7 @@
 -- What happened in March 2026, and the concentration measure it produced
 -- =============================================================================
 -- Produces: data/customer-concentration-monthly.csv
--- Supports: Figure 6, and the 0.093–0.718 range that Sections 2.1, 3.1 and 4.3
+-- Supports: Figure 6, and the 0.093–0.718 range that Sections 3.1, 4.1 and 5.3
 --           use to argue that comparing two months compares two mixtures
 --
 -- An earlier finding recorded March 2026 as anomalous and unexplained: **37,447

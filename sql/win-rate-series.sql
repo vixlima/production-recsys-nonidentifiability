@@ -2,7 +2,7 @@
 -- The monthly series with customer composition controlled for
 -- =============================================================================
 -- Produces: data/win-rate-series-two-aggregations.csv
--- Supports: Figure 7 and the −0.019 / +0.060 pair in Sections 4.3 and 5.2
+-- Supports: Figure 7 and the −0.019 / +0.060 pair in Sections 5.3 and 6.2
 --
 -- An earlier finding showed that the monthly series measures customer
 -- composition: the largest customer accounts for 9.3% to 71.8% of the month's

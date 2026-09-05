@@ -2,7 +2,7 @@
 -- Do already-closed deals actually get DISPLAYED to the salesperson?
 -- =============================================================================
 -- Produces: data/closed-deals-shown-at-top-monthly.csv
--- Supports: the displaced-position figures quoted in Section 2
+-- Supports: the displaced-position figures quoted in Section 3
 --
 -- An earlier finding established that 5.23% of closed rows are scored after the
 -- deal had already closed, through a leak in the candidate-list filter. It also

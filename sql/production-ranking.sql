@@ -2,7 +2,7 @@
 -- The ranking metric over the whole history, and the price of censoring
 -- =============================================================================
 -- Produces: data/production-ranking-by-cutoff.csv
--- Supports: Figure 5, and the claim in Sections 3.3 and 4.2 that no ranking
+-- Supports: Figure 5, and the claim in Sections 4.3 and 5.2 that no ranking
 --           value is interpretable without the cutoff that produced it
 --
 -- The production dashboard tracks F1, ROC-AUC, accuracy and precision:

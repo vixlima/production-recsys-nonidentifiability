@@ -37,3 +37,4 @@ id,date,direction,cause_class,claim_retracted
 35,2026-08-23,against_system,A,"Four of the eight ranking comparisons survive Holm, and the outcome against the tuned baseline is undecidable"
 36,2026-08-26,against_hypothesis,A,The direction survives in all four combinations; the margin does not
 37,2026-08-30,favours_system,A,"With both ends corrected over the same population, the system beats every heuristic tested"
+38,2026-09-05,neutral,,Clustering by request changes the verdict of two of the eight comparisons (it is three)

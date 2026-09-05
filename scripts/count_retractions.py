@@ -2,14 +2,15 @@
 """Derives the retraction counts the paper cites, from the inventory.
 
 Reads: data/retractions.csv
-Supports: every count in Section 5.3 and in the fifth limitation of Section 5.2
+Supports: every count in Section 6.4 and in the fifth limitation of Section 6.2
 
     python3 scripts/count_retractions.py
 
 WHY THIS SCRIPT EXISTS, and it is not tooling for its own sake. The paper cites
-the counts in a dozen places — thirty-seven claims overturned, twelve favouring
-the audited system, seven contradicting the central hypothesis, one cause family
-accounting for more than a third. Counts written by hand go stale the moment the
+the counts in several places — thirty-eight claims overturned, twelve favouring
+the audited system, one cause family accounting for more than a third. The
+'against the central hypothesis' direction refers to the hypothesis of the wider
+research programme, which the paper does not state, and is therefore not cited there. Counts written by hand go stale the moment the
 inventory grows, and this project has watched that happen: on one occasion seven
 mentions across two versions of the paper were out of date, **all of them correct
 when they were written**. Deriving them from the table is what keeps prose and
@@ -35,7 +36,7 @@ comparing over a unit of analysis that is not the declared one, and **H**,
 transporting a measure from one population to another without checking that the
 populations are the same. Together they are the family the paper reports as
 concentrating more than a third of the entries — and the same family as the three
-mechanisms of Section 4. The error the audit finds in the system is the error the
+mechanisms of Section 5. The error the audit finds in the system is the error the
 audit committed most.
 """
 
@@ -97,8 +98,7 @@ def main() -> int:
     # The two numbers the paper leans on hardest, printed together because they
     # are the ones a reader checks first.
     print(f"\nas cited in the paper: {total} claims overturned; "
-          f"{by_direction['favours_system']} favouring the audited system; "
-          f"{by_direction['against_hypothesis']} contradicting the central hypothesis.")
+          f"{by_direction['favours_system']} favouring the audited system.")
     return 0
 
 

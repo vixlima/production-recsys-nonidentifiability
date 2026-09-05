@@ -3,7 +3,7 @@
 -- =============================================================================
 -- Produces: data/censoring-by-score.csv and data/censoring-by-rank-and-age.csv
 -- Supports: Figure 3, and the 0.2347 → 0.3989 → 0.2433 resolution profile that
---           Section 4.2 uses to refute independence between censoring and score
+--           Section 5.2 uses to refute independence between censoring and score
 --
 -- 69.36% of predictions have no known outcome, and every metric computed
 -- elsewhere in this work lives in the remaining 30.64%. Quantifying that has

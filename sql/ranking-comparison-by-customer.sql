@@ -2,7 +2,7 @@
 -- The ranking comparison with the resampling unit the pre-registration declared
 -- =============================================================================
 -- Produces: data/ranking-comparison-by-customer.csv
--- Supports: Table 4, and the ±0.0459 / +0.0037 sign disagreement of Table 6
+-- Supports: Table 4, and the −0.0459 / +0.0059 sign disagreement of Table 5
 --
 -- This closes, for the audit study, the defect recorded as entry 34 of the
 -- retractions inventory: resampling by one unit when the protocol declared

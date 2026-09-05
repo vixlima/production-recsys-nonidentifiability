@@ -2,7 +2,7 @@
 -- Who ends up without an outcome: a zombie deal, or a lost outcome?
 -- =============================================================================
 -- Produces: data/resolution-by-two-ages.csv
--- Supports: Table 5 and the composition argument of Section 4.3
+-- Supports: the two-ages cross-tabulation of Section 5.2 (formerly Table 5) and the composition argument of Section 5.3
 --
 -- One open question blocked the paper: **why does the resolution rate FALL with
 -- prediction age**, when more elapsed time ought to produce more closure? An

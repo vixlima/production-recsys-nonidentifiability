@@ -2,7 +2,7 @@
 -- Bounds on precision@5 under censoring, instead of "direction not determined"
 -- =============================================================================
 -- Produces: data/censoring-bounds.csv
--- Supports: Figure 4, and the 0.0849–0.7508 interval that Sections 4.2 and 5.2
+-- Supports: Figure 4, and the 0.0849–0.7508 interval that Sections 5.2 and 6.2
 --           report as the paper's central identification result
 --
 -- An earlier finding established that the censoring is **informative**: the

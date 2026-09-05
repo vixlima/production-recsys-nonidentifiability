@@ -2,8 +2,8 @@
 """Fits the five-variable logistic regression the pre-registration specified.
 
 Produces: data/logistic-baseline-coefficients.csv
-Supports: the tuned comparator of Table 4 — the one that BEATS the system —, and
-          the eighth limitation of Section 5.2
+Supports: the estimated comparator of Table 4 — the one that BEATS the system —, and
+          the eighth limitation of Section 6.2
 
 This closes the deviation in which the pre-registration listed, among the
 baselines, "a logistic regression with five variables" that was never executed —
@@ -36,7 +36,7 @@ A NOTE ON WHY THIS COMPARATOR IS BIASED IN ITS OWN FAVOUR, since the paper turns
 on it: the five attributes come from the CURRENT state of the deal, posterior to
 the outcome, because the attribute base keeps no history. The system's order was
 produced at the instant of prediction. The direction of that bias is known and
-its magnitude is not measurable with this data. See Section 5.2, eighth
+its magnitude is not measurable with this data. See Section 6.2, eighth
 limitation.
 
 Usage:

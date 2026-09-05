@@ -138,7 +138,7 @@ def save(fig, name):
 
 
 # ---------------------------------------------------------------------------
-# F1 — the four dashboard metrics, month by month. Enters Section 2 as the state
+# F1 — the four dashboard metrics, month by month. Enters Section 3 as the state
 # of the art of the operation, and is dismantled in 4.3: each point also measures
 # the month's customer mix.
 # ---------------------------------------------------------------------------
