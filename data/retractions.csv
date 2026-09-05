@@ -38,3 +38,4 @@ id,date,direction,cause_class,claim_retracted
 36,2026-08-26,against_hypothesis,A,The direction survives in all four combinations; the margin does not
 37,2026-08-30,favours_system,A,"With both ends corrected over the same population, the system beats every heuristic tested"
 38,2026-09-05,neutral,,Clustering by request changes the verdict of two of the eight comparisons (it is three)
+39,2026-09-05,neutral,B,The identification width only falls below 0.2 when censored positions win at most half of what resolved ones win (it is already 0.171 at equal rates)

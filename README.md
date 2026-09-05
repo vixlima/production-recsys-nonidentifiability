@@ -61,9 +61,9 @@ rows, and a large file would signal accidental extraction — and the list of wh
 
 | Path | Contents |
 |---|---|
-| `sql/` | The eleven queries that produce the aggregates, parameterised |
+| `sql/` | The thirteen queries that produce the aggregates, parameterised |
 | `scripts/` | Analysis and figure generation; the multiplicity correction; the retraction counter |
-| `data/` | The sixteen aggregates supporting the figures, tables and numbers of the paper |
+| `data/` | The nineteen aggregates supporting the figures, tables and numbers of the paper |
 | `config.example.env` | Template for the identifiers, every field blank |
 
 ## Reproducing a number from the paper
@@ -79,28 +79,35 @@ supports, and the paper's apparatus maps every cited number to its aggregate. Th
 | Aggregate | Supports |
 |---|---|
 | `dashboard-metrics-monthly.csv` | Figures 1 and 2; Section 3.1 |
-| `effective-score-weights.csv` | Tables 1 and 2; Section 3.2 |
+| `effective-score-weights.csv` | The composition of the score, Section 3.2 |
 | `closed-deals-shown-at-top-monthly.csv` | Request counts by month; Section 4.4 |
-| `censoring-by-rank-and-age.csv` | Figure 3, right panel; Section 5.1 |
-| `auc-within-request.csv` | The within-request AUC of Section 5.1 and Table 6 |
-| `ranking-comparison-by-customer.csv` | Table 4, by-customer columns; Table 5 |
-| `ranking-comparison-preregistered.csv` | Table 4, by-request columns; Table 5 |
-| `logistic-baseline-coefficients.csv` | The estimated comparator of Table 4; Section 4.4 |
-| `censoring-by-score.csv` | The resolution-by-score-band profile of Section 5.2 |
-| `censoring-bounds.csv` | Figure 4 and the 0.0849–0.7508 interval; Figure 3, left panel |
+| `auc-within-request.csv` | The within-request AUC of Section 5.1; Figure 3; Table 4, question 3; Table 6 |
+| `top5-vs-rest-within-request.csv` | The top-5 against the rest of the same list, Section 5.1; Table 6 |
+| `censoring-by-rank-and-age.csv` | Figure 4, right panel; Section 5.1 |
+| `ranking-comparison-by-customer-2026-09-05.csv` | Table 2, by-customer columns and bootstrap interval; Table 3 |
+| `ranking-comparison-preregistered-2026-09-05.csv` | Table 2, by-request columns; Table 3 |
+| `ranking-comparison-by-customer.csv` | The 23 August measurement the paper cites as earlier (525 requests) |
+| `ranking-comparison-preregistered.csv` | The 23 August measurement, by request |
+| `logistic-baseline-coefficients.csv` | The estimated comparator of Table 2; Section 4.4 |
+| `censoring-by-score.csv` | The resolution-by-score-band profile of Section 5.2; Table 4, question 5 |
+| `censoring-bounds.csv` | Figure 5 and the 0.0849–0.7508 interval; Figure 4, left panel; Figure 3 |
 | `precision-bounds-under-assumption.csv` | The bounded-ratio family of Section 5.2 |
 | `ndcg5-bounds.csv` | The NDCG@5 interval of Section 5.2 and Table 6 |
-| `production-ranking-by-cutoff.csv` | Figure 5 |
-| `resolution-by-two-ages.csv` | The two-ages cross-tabulation of Section 5.2 |
-| `customer-concentration-monthly.csv` | Figure 6; Section 5.3 |
-| `win-rate-series-two-aggregations.csv` | Figure 7; Table 5 |
+| `production-ranking-by-cutoff.csv` | Figure 6 |
+| `resolution-by-two-ages.csv` | The two-ages cross-tabulation of Section 5.3; Table 4, question 6 |
+| `customer-concentration-monthly.csv` | Figure 7; Section 5.3; Figure 3; Table 4, question 7 |
+| `win-rate-series-two-aggregations.csv` | Figure 8; Table 3; Table 4, question 8 |
 | `retractions.csv` | Section 6.4 |
+
+The checklist of Table 4 names, for each of its ten questions, the query here that answers it;
+the two questions answered by reading the product and the system have no query.
 
 Verifiable with no access at all:
 
 ```bash
 python3 scripts/count_retractions.py      # the counts in Section 6.4
-python3 scripts/make_figures.py           # the seven figures
+python3 scripts/make_figures.py           # seven of the eight figures
+python3 scripts/make_synthesis_figure.py  # Figure 3, the diagram
 ```
 
 ## Aggregates are measurements, not fixtures
